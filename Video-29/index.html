@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-3 | Card</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      border-radius: 20px;
+      background-color: aliceblue;
+      width: 30vw;
+      position: absolute;
+      border: 0.1px solid rgb(179, 174, 174);
+    }
+    .image-container img {
+      width: 95%;
+      height: 50%;
+      border-radius: 25px;
+      padding: 15px 5px 15px 15px;
+    }
+    .capsules {
+      margin-left: 25px;
+    }
+    .capsule {
+      border: 0.1px solid rgb(179, 174, 174);
+      display: inline-block;
+      padding: 5px 10px;
+      margin-right: 5px;
+      border-radius: 20px;
+    }
+    .content {
+      padding: 5px 20px;
+      margin-right: 5px;
+    }
+    .read-more-container{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .read-more {
+      padding: 5px 10px;
+      background-color: #8eb4ec;
+      color: #007bff;
+      text-decoration: none;
+      border-radius: 20px;
+      
+    }
+  </style>
+  <body>
+    <div class="card">
+      <div class="image-container">
+        <img
+          src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80"
+          alt="Placeholder Image"
+        />
+      </div>
+      <div class="capsules">
+        <span class="capsule">capsule 1</span>
+        <span class="capsule">capsule 2</span>
+      </div>
+      <div class="content">
+        <h2>Heading 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          veniam beatae facilis, rerum at deserunt autem aut, laborum quisquam
+          illo odio necessitatibus ipsum velit modi delectus enim libero a eos
+          voluptatem iusto provident nesciunt illum? Rem nostrum delectus eius.
+          Dolore aperiam aliquid delectus sunt ab corporis at, voluptatem
+          dolores sed?
+        </p>
+        <div class="read-more-container">
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
