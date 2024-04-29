@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 6</title>
+  </head>
+  <style>
+    :root {
+      --color: rgb(188, 188, 223);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      /* box-sizing: border-box; */
+      .navbar {
+        background-color: var(--color);
+        color: #fff;
+        padding: 10px 0;
+      }
+    }
+    .navbar {
+      background-color: var(--color);
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .navbar ul {
+      display: flex;
+    }
+    .navbar ul li {
+      list-style: none;
+      margin-right: 20px;
+    }
+  </style>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="brand">My Website</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
